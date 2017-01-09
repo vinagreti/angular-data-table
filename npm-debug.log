@@ -45,9 +45,9 @@
 21 silly publish   homepage: 'https://github.com/vinagreti/angular-data-table#readme',
 21 silly publish   readme: '# angular-data-table\nAn Angular 2 + Data Table that uses HTTP to create, read, update and delete data from an external API such REST.\n\n\n#License\n----\n\nWTFPL\n',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: '8bd89d1b036dd7c02e9f18b84b6f83930d90f12b',
+21 silly publish   gitHead: '086a9fb17f1d82224f791f028b9be3bee37981da',
 21 silly publish   _id: '@vinagreti/angular-data-table@0.0.1',
-21 silly publish   _shasum: '8ecedb93ff0a4888b645c3be9dc28d6a2ee05bb1',
+21 silly publish   _shasum: 'c3bd4805c1581985a95c1c0acd1e20afa9beb7a4',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name @vinagreti/angular-data-table
@@ -68,22 +68,22 @@
 31 silly publish uploading /home/bruno/.npm/@vinagreti/angular-data-table/0.0.1/package.tgz
 32 verbose request uri http://registry.npmjs.org/@vinagreti%2fangular-data-table
 33 verbose request sending authorization for write operation
-34 info attempt registry request try #1 at 10:00:33 AM
+34 info attempt registry request try #1 at 10:09:06 AM
 35 verbose request using bearer token for auth
-36 verbose request id 918b28126f45328c
+36 verbose request id aeeee62a6eb6f566
 37 http request PUT http://registry.npmjs.org/@vinagreti%2fangular-data-table
 38 http 402 http://registry.npmjs.org/@vinagreti%2fangular-data-table
 39 verbose headers { 'content-type': 'application/json',
 39 verbose headers   'cache-control': 'max-age=0',
 39 verbose headers   'content-length': '119',
 39 verbose headers   'accept-ranges': 'bytes',
-39 verbose headers   date: 'Mon, 09 Jan 2017 12:00:34 GMT',
+39 verbose headers   date: 'Mon, 09 Jan 2017 12:09:06 GMT',
 39 verbose headers   via: '1.1 varnish',
 39 verbose headers   connection: 'keep-alive',
-39 verbose headers   'x-served-by': 'cache-gru7122-GRU',
+39 verbose headers   'x-served-by': 'cache-gru7125-GRU',
 39 verbose headers   'x-cache': 'MISS',
 39 verbose headers   'x-cache-hits': '0',
-39 verbose headers   'x-timer': 'S1483963233.501016,VS0,VE800' }
+39 verbose headers   'x-timer': 'S1483963746.044041,VS0,VE817' }
 40 verbose request invalidating /home/bruno/.npm/registry.npmjs.org/_40vinagreti_252fangular-data-table on PUT
 41 error publish Failed PUT 402
 42 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @vinagreti/angular-data-table
