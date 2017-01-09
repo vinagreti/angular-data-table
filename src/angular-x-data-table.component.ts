@@ -2,8 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'angular-x-data-table',
-    styleUrls: ['angular-x-data-table.component.css'],
-    templateUrl: 'angular-x-data-table.component.html'
+    styleUrls: ['./angular-x-data-table.component.css'],
+    templateUrl: './angular-x-data-table.component.html'
 })
 export class AngularXDataTableComponent {
 
