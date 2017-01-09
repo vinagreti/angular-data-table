@@ -1,9 +1,11 @@
 import 'zone.js/dist/zone';
 import 'reflect-metadata';
 
-import { Component } from '@angular/core';
-import { bootstrap } from '@angular/platform-browser-dynamic';
-import { AngularXDataTableModule } from 'angular-x-data-table';
+import { NgModule, Component } from '@angular/core';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { BrowserModule } from '@angular/platform-browser';
+import { AngularXDataTableModule } from 'angular-x-data-table/';
+import { HttpModule } from '@angular/http';
 
 @Component({
     selector: 'app',
@@ -11,7 +13,7 @@ import { AngularXDataTableModule } from 'angular-x-data-table';
                    <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
                    {{message}}
                    <hr>
-                   Hello world => <hello-world></hello-world>
+                   Hello world => <angular-x-data-table></angular-x-data-table>
                    <hr>
                </div>`
 })
@@ -25,5 +27,21 @@ export class App {
 
 }
 
+@NgModule({
+  bootstrap: [
+    App
+  ],
+  declarations: [
+    App
+  ],
+  imports: [
+    BrowserModule,
+    HttpModule,
+    AngularXDataTableModule,
+  ],
+  providers: [
+  ]
+})
+export class AppModule { }
 
-bootstrap(App);
+platformBrowserDynamic().bootstrapModule(AppModule);

@@ -12,6 +12,9 @@ require("zone.js/dist/zone");
 require("reflect-metadata");
 const core_1 = require("@angular/core");
 const platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
+const platform_browser_1 = require("@angular/platform-browser");
+const _1 = require("angular-x-data-table/");
+const http_1 = require("@angular/http");
 let App = class App {
     constructor() {
         this.message = "";
@@ -27,12 +30,32 @@ App = __decorate([
                    <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
                    {{message}}
                    <hr>
-                   Hello world => <hello-world></hello-world>
+                   Hello world => <angular-x-data-table></angular-x-data-table>
                    <hr>
                </div>`
     }),
     __metadata("design:paramtypes", [])
 ], App);
 exports.App = App;
-platform_browser_dynamic_1.bootstrap(App);
+let AppModule = class AppModule {
+};
+AppModule = __decorate([
+    core_1.NgModule({
+        bootstrap: [
+            App
+        ],
+        declarations: [
+            App
+        ],
+        imports: [
+            platform_browser_1.BrowserModule,
+            http_1.HttpModule,
+            _1.AngularXDataTableModule,
+        ],
+        providers: []
+    }),
+    __metadata("design:paramtypes", [])
+], AppModule);
+exports.AppModule = AppModule;
+platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(AppModule);
 //# sourceMappingURL=app.js.map
