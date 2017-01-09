@@ -1,5 +1,5 @@
 {
-  "name": "@vinagreti/angular-data-table",
+  "name": "angular-data-table",
   "version": "0.0.1",
   "description": "An Angular 2 + Data Table that uses HTTP to create, read, update and delete data from an external API such REST.",
   "main": "index.js",
