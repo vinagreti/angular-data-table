@@ -1,24 +1,39 @@
 {
-  "name": "angular-x-data-table",
-  "version": "0.0.1",
-  "description": "An Angular 2 + Data Table that uses HTTP to create, read, update and delete data from an external API such REST.",
-  "main": "index.js",
+  "name": "angular2-library-example",
+  "version": "1.0.6",
+  "description": "An example repository for building your own Angular 2 library",
+  "main": "angular2-library-example.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc -p src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://vinagreti@github.com/vinagreti/angular-data-table.git"
+    "url": "git+https://github.com/jhades/angular2-library-seed.git"
   },
   "keywords": [
-    "angular",
-    "angular2",
-    "data-table"
+    "Angular",
+    "2",
+    "Library",
+    "Seed"
   ],
-  "author": "“Vinagreti” <bruno@tzadi.com> (https://br.linkedin.com/in/brunojoao)",
-  "license": "WTFPL",
+  "author": "jhades.dev@gmail.com",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vinagreti/angular-data-table/issues"
+    "url": "https://github.com/jhades/angular2-library-seed/issues"
   },
-  "homepage": "https://github.com/vinagreti/angular-data-table#readme"
+  "homepage": "https://github.com/jhades/angular2-library-seed#readme",
+  "devDependencies": {
+    "typescript": "2.0.0"
+  },
+  "dependencies": {
+    "@angular/common": "2.4.1",
+    "@angular/compiler": "2.4.1",
+    "@angular/core": "2.4.1",
+    "@angular/http": "2.4.1",
+    "@angular/platform-browser": "2.4.1",
+    "@angular/platform-browser-dynamic": "2.4.1",
+    "rxjs": "5.0.2",
+    "zone.js":"0.7.4"
+  }
 }
