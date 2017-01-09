@@ -1,6 +1,6 @@
 {
   "name": "angular-x-data-table",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Angular 2 + Data Table that uses HTTP to create, read, update and delete data from an external API such REST.",
   "main": "angular-x-data-table.js",
   "scripts": {
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhades/angular2-library-seed.git"
+    "url": "git+https://github.com/vinagreti/angular-x-data-table.git"
   },
   "keywords": [
     "Angular",
-    "2",
-    "Library",
-    "Seed"
+    "Angular2",
+    "Datatable",
+    "Rest"
   ],
-  "author": "jhades.dev@gmail.com",
+  "author": "bruno@tzadi.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jhades/angular2-library-seed/issues"
+    "url": "https://github.com/vinagreti/angular-x-data-table/issues"
   },
-  "homepage": "https://github.com/jhades/angular2-library-seed#readme",
+  "homepage": "https://github.com/vinagreti/angular-x-data-table#readme",
   "devDependencies": {
     "typescript": "2.0.0"
   },
