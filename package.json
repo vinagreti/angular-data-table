@@ -1,0 +1,24 @@
+{
+  "name": "@vinagreti/angular-data-table",
+  "version": "0.0.1",
+  "description": "An Angular 2 + Data Table that uses HTTP to create, read, update and delete data from an external API such REST.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vinagreti@github.com/vinagreti/angular-data-table.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "data-table"
+  ],
+  "author": "“Vinagreti” <bruno@tzadi.com> (https://br.linkedin.com/in/brunojoao)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/vinagreti/angular-data-table/issues"
+  },
+  "homepage": "https://github.com/vinagreti/angular-data-table#readme"
+}
