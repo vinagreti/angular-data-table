@@ -1,17 +1,18 @@
 import 'zone.js/dist/zone';
 import 'reflect-metadata';
 
-import {Component} from '@angular/core';
-import {bootstrap} from '@angular/platform-browser-dynamic';
-import {HelloWorld} from 'angular-x-data-table/components';
+import { Component } from '@angular/core';
+import { bootstrap } from '@angular/platform-browser-dynamic';
+import { AngularXDataTableModule } from 'angular-x-data-table';
 
 @Component({
     selector: 'app',
-    directives: [HelloWorld],
     template: `<div>
                    <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
                    {{message}}
-                   <hello-world></hello-world>
+                   <hr>
+                   Hello world => <hello-world></hello-world>
+                   <hr>
                </div>`
 })
 export class App {

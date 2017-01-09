@@ -12,7 +12,6 @@ require("zone.js/dist/zone");
 require("reflect-metadata");
 const core_1 = require("@angular/core");
 const platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
-const components_1 = require("angular-x-data-table/components");
 let App = class App {
     constructor() {
         this.message = "";
@@ -24,11 +23,12 @@ let App = class App {
 App = __decorate([
     core_1.Component({
         selector: 'app',
-        directives: [components_1.HelloWorld],
         template: `<div>
                    <input (keyup)="onKeyUp(input)" #input placeholder="Type Here">
                    {{message}}
-                   <hello-world></hello-world>
+                   <hr>
+                   Hello world => <hello-world></hello-world>
+                   <hr>
                </div>`
     }),
     __metadata("design:paramtypes", [])

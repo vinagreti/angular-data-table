@@ -1,8 +1,8 @@
 {
   "name": "angular-x-data-table",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "An Angular 2 + Data Table that uses HTTP to create, read, update and delete data from an external API such REST.",
-  "main": "angular-x-data-table.js",
+  "main": "index.js",
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && tsc -p src"

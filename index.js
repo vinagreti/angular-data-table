@@ -1,1 +1,1 @@
-exports.HelloWorld = require('./lib/HelloWorld').HelloWorld;
+exports.AngularXDataTableModule = require('./lib').AngularXDataTableModule;
