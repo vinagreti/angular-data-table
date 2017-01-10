@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/vinagreti/angular-x-data-table#readme",
   "devDependencies": {
-    "gulp": "*",
-    "gulp-angular-embed-templates": "*",
-    "gulp-inline-ng2-styles": "*",
+    "gulp": "3.9.1",
+    "gulp-angular-embed-templates": "2.3.0",
+    "gulp-inline-ng2-styles": "0.0.1",
     "typescript": "2.0.0"
   },
   "dependencies": {
