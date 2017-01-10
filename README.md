@@ -9,7 +9,7 @@ This module is a work in progress and is in concept phase.
 
 You can install the module using npm:
 
-    npm install angular-x-data-table --save
+    `npm install angular-x-data-table --save`
 
 ## Attributes
 | Attributes     | Description     | Default  |
@@ -37,9 +37,9 @@ You can install the module using npm:
 
 ## Run the demo
 
-    cd examples/webpack
-    npm install
-    npm start
+    `cd examples/webpack`
+    `npm install`
+    `npm start`
 
 Then access [http://localhost:8080](http://localhost:8080)
 
@@ -47,10 +47,10 @@ Then access [http://localhost:8080](http://localhost:8080)
 To submit  a pull request, you should embed the styles and template in the component using `gulp` and compile using `tsc`.
 
 To embed the styles and template just run:
-- gulp js:build
+- `gulp js:build`
 
 To compile the application just run:
-- npm run build
+- `npm run build`
 
 # To Do
 
