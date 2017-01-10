@@ -2,10 +2,10 @@
 
 An Angular 2+ Data Table that uses HTTP to create, read, update and delete data from an external API such REST
 
-# Warning
+## Warning
 This module is a work in progress and is in concept phase.
 
-# Installation
+## Installation
 
 You can install the module using npm:
 
@@ -42,3 +42,19 @@ You can install the module using npm:
     npm start
 
 Then access [http://localhost:8080](http://localhost:8080)
+
+## Contribution
+To submit  a pull request, you should embed the styles and template in the component using `gulp` and compile using `tsc`.
+
+To embed the styles and template just run:
+- gulp js:build
+
+To compile the application just run:
+- npm run build
+
+# To Do
+
+ 1. Lint the styles before inline
+ 2. Minify the styles before inline
+ 3. Lint the html before inline
+ 4. Minify the html before inline
