@@ -1,11 +1,11 @@
 {
   "name": "angular-x-data-table",
-  "version": "0.0.14",
+  "version": "0.0.18",
   "description": "An Angular 2 + Data Table that uses HTTP to create, read, update and delete data from an external API such REST.",
   "main": "index.js",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "rm -rf lib && tsc -p src"
+    "build": "rm -rf lib && tsc -p dist"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/vinagreti/angular-x-data-table#readme",
   "devDependencies": {
+    "gulp": "*",
+    "gulp-angular-embed-templates": "*",
+    "gulp-inline-ng2-styles": "*",
     "typescript": "2.0.0"
   },
   "dependencies": {
@@ -34,6 +37,6 @@
     "@angular/platform-browser": "2.4.1",
     "@angular/platform-browser-dynamic": "2.4.1",
     "rxjs": "5.0.2",
-    "zone.js":"0.7.4"
+    "zone.js": "0.7.4"
   }
 }
